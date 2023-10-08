@@ -5,7 +5,7 @@ import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@SuppressWarnings("serial")
+@SuppressWarnings("serial") 
 public class Category implements Serializable {
 	@JsonProperty("id")
 	private Long id;
